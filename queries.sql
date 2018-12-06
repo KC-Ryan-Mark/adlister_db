@@ -5,7 +5,7 @@ FROM users
 WHERE user_id IN (
     SELECT user_id
     FROM listings
-    WHERE title LIKE '%massage%'
+    WHERE title LIKE '%note%'
 );
 
 SELECT type AS Categories
@@ -29,5 +29,14 @@ FROM listings
 WHERE user_id IN (
     SELECT user_id
     FROM users
-    WHERE user_id = 3
+    WHERE user_id = 1
+);
+
+SELECT name Person, email email, title ADs
+FROM users
+JOIN listings USING (user_id)
+WHERE user_id IN (
+    SELECT user_id
+    FROM listings
+    WHERE description LIKE '%DEEP%'
 );

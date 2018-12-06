@@ -15,9 +15,9 @@ VALUES  ('computers'),
 
 INSERT INTO users(name, email, password, phone)
 
-VALUES  ('Mark', 'mark@gmail.com', '$V"67k/9U4_p)*e]r#A5./uV-Y4@_zmVXsyY\HW<JG_;R~uAcn4~?6Jrep~]', 9991117777),
-        ('KC', 'kc@gmail.com', '$U)r.Z_7Zh+NX:D"MBC739eQa)Fu:S@c"%y#}[C-b:P(Z3Sf\+~U2tGP\R<Q', 2220001111),
-        ('Ryan', 'ryan@gmail.com', '$;Z?79%BbR}bV9<g%5MEg5[_@a%>Y(CR$DP(b,v(@7hsC+s-cd>a"mGT6uJ@', 3332224444);
+VALUES  ('Mark Stachowski', 'mark@gmail.com', '$V"67k/9U4_p)*e]r#A5./uV-Y4@_zmVXsyY\HW<JG_;R~uAcn4~?6Jrep~]', 9991117777),
+        ('KC McInturf', 'kc@gmail.com', '$U)r.Z_7Zh+NX:D"MBC739eQa)Fu:S@c"%y#}[C-b:P(Z3Sf\+~U2tGP\R<Q', 2220001111),
+        ('Ryan Houpt', 'ryan@gmail.com', '$;Z?79%BbR}bV9<g%5MEg5[_@a%>Y(CR$DP(b,v(@7hsC+s-cd>a"mGT6uJ@', 3332224444);
 
 INSERT INTO listings(title, date_posted, category_id, user_id, brand, year, item_condition, price, image_url, description)
 VALUES
